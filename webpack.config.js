@@ -38,6 +38,7 @@ module.exports = {
   },
   devServer: {
     contentBase: './build',
+    port: 8081,
     disableHostCheck: true,
   },
   plugins: [
