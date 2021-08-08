@@ -6,8 +6,8 @@ class App extends React.Component {
       <React.Fragment>
         <p class="text-9xl">Hello world</p>
       </React.Fragment>
-    );
+      );
+    }
   }
-}
 
 export default App;
