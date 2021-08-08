@@ -12,5 +12,5 @@ ReactDOM.render(
     </Suspense>
   </React.StrictMode>, 
   document.getElementById('root')
-);
+  );
  
