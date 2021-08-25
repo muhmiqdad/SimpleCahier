@@ -36,6 +36,9 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    fallback: { path: false, buffer: require.resolve('buffer'), },
+    },
   devServer: {
     contentBase: './build',
     port: 8081,
